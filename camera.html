@@ -1,16 +1,27 @@
 
-<div id="bigrectangle"></div>
-<div id="toprectangle"></div>
-<div id="controlrect"></div>
-<div id="shutter"></div>
-<div id="lens1">
-	<div id="lens2"></div>
+<div id="camera body">
+	<div id="bottomrect"></div>
+	<div id="toprect"></div>
+</div>        
+
+
+<div id="viewfinder">
+	<div id="controlrect"></div>
+	<div id="shutter"></div>
+       	<div id="viewrect"></div>
 </div>
-<div id="viewrect"></div>
+
+
+<div id="lenses">
+	<div id="biglens">
+	<div id="smlens"></div>
+</div>
+
+
 
 
 <style>
-#bigrectangle {
+#bottomrect {
 	background-color:black;
 	width:400px;
 	height:250px;
@@ -18,7 +29,7 @@
         position:absolute;
 }
 
-#toprectangle {
+#toprect {
 	background-color:grey;
         width:400px;
         height:75px;
@@ -28,7 +39,7 @@
 
 
 #controlrect {
-	background-color:black;
+		background-color:black;
         width:275px;
         height:110px;
         position:absolute;
@@ -37,7 +48,7 @@
 }
 
 #shutter {
-	background-color:grey;
+		background-color:grey;
         width:15px;
         height:25px;
         position:absolute;
@@ -59,7 +70,7 @@
 
 
 
-#lens1 {
+#biglens {
 	background-color:grey;
         width:160px;
         height:160px;
@@ -70,7 +81,7 @@
         
 }
 
-#lens2 {
+#smlens {
 	background-color:black;
         width:120px;
         height:120px;
@@ -84,5 +95,4 @@
 
 
 </style>
-
 

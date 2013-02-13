@@ -1,10 +1,9 @@
-
 <div id="bird">
 	<div id="body"></div>
 	<div id="leg1"></div>
 	<div id="leg2"></div>
+  	<div id="guts"></div>
 </div>
-
 
 <div id="shoulder">
 	<div id="feathers1"></div>
@@ -30,6 +29,30 @@
 
 
 <style>
+/* Define the keyframe */
+@-webkit-keyframes rotate {
+   0% { -webkit-transform:rotate(0deg); }
+    50% { -webkit-transform:rotate(10deg); }
+    100% { -webkit-transform:rotate (90deg); }
+  }
+  
+ #shoulder {
+ 	position: absolute;
+  	top:0px;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 5;
+  }
+  
+  #talons {
+  -webkit-animation-name: fall;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: ;
+  }
+  
 #body {
 		background-color:grey;
 		width:450px;
@@ -125,6 +148,17 @@
         top: 160px;
         left:300px;
 }
+  
+  #guts {
+    	background-color:darkred;
+    	width:150px;
+    	height:70px;
+    	position:absolute;
+    	border-radius:50%;
+    	top:290px;
+    	left:300px;
+  }
+  
 #skull {
 		background-color:grey;
         width:100px;
@@ -157,4 +191,3 @@
 
 
 </style>
-
