@@ -1,0 +1,28 @@
+<button onclick='checkGuess("0");'>0</button>
+<button onclick='checkGuess("1");'>1</button>
+<button onclick='checkGuess("2");'>2</button>
+<button onclick='checkGuess("3");'>3</button>
+<button onclick='checkGuess("4");'>4</button>
+<button onclick='checkGuess("5");'>5</button>
+
+  <script>
+     var num = Math.round(Math.random()*5);
+
+    function checkGuess(guess){
+      if(guess==num){
+        alert ("good job!" + guess)}
+      else {
+        alert ("wrong!" + guess)}
+      if(guess<num){
+        alert ("higher!" + guess)}
+      if(guess>num){
+        alert ("lower!" + guess)}
+        
+        
+      }
+
+  
+     // Add in your check guess function
+
+     // Then make it call the right function
+  </script>

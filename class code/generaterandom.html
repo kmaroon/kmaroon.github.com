@@ -1,0 +1,30 @@
+<button onclick='checkGuess("0");'>0</button>
+<button onclick='checkGuess("1");'>1</button>
+<button onclick='checkGuess("2");'>2</button>
+<button onclick='checkGuess("3");'>3</button>
+<button onclick='checkGuess("4");'>4</button>
+<button onclick='checkGuess("5");'>5</button>
+
+  <script>
+     var num = generateRandom();
+
+    function checkGuess(guess){
+      if(num==guess){
+        alert ("you got it right! try a new number");	      
+      num = generateRandom();
+      }
+      
+      
+      	else {
+        	alert ("wrong!"+ num);
+      	}
+
+    }
+    
+    function generateRandom(){
+      return Math.round(Math.random()*5); 
+      
+    }
+  
+     
+  </script>

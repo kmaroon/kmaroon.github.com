@@ -1,0 +1,193 @@
+<div id="bird">
+	<div id="body"></div>
+	<div id="leg1"></div>
+	<div id="leg2"></div>
+  	<div id="guts"></div>
+</div>
+
+<div id="shoulder">
+	<div id="feathers1"></div>
+	<div id="feathers2"></div>
+	<div id="wing"></div>
+</div>        
+
+
+<div id="head">
+	<div id="beak"></div>
+        <div id="skull"></div>
+        <div id="eye"></div>
+</div>
+
+
+<div id="talons">
+	<div id="talon1"></div>
+        <div id="talon2"></div>
+        <div id="talon3"></div>
+        <div id="talon4"></div>
+        
+</div> 
+
+
+<style>
+/* Define the keyframe */
+@-webkit-keyframes rotate {
+   0% { -webkit-transform:rotate(0deg); }
+    50% { -webkit-transform:rotate(10deg); }
+    100% { -webkit-transform:rotate (90deg); }
+  }
+  
+ #shoulder {
+ 	position: absolute;
+  	top:0px;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 5;
+  }
+  
+  #talons {
+  -webkit-animation-name: fall;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: ;
+  }
+  
+#body {
+		background-color:grey;
+		width:450px;
+		height:250px;
+        position:absolute;
+        border-radius:50%;
+        top:200px;
+        left:75px;        
+}
+
+#feathers1 {
+		background-color:#333;
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:300px;
+        left:450px;
+        
+}
+
+#feathers2 {
+		background-color:#333;
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:320px;
+        left:470px;
+
+}
+
+#wing {
+		background-color:lightgrey;
+        width:300px;
+        height:200px;
+        position:absolute;
+        border-radius:50%;
+        top:275px;
+        left:220px;
+}
+
+#leg1 {
+		background-color:black;
+        width:5px;
+        height:50px;
+        position:absolute;
+        top:150px;
+        left:300px;
+   
+}
+
+#leg2 {
+		background-color:black;
+        width:5px;
+        height:50px;
+        position:absolute;
+        top:165px;
+        left:400px;
+   
+}
+
+#talon1 {
+		background-color:black;
+        width:30px;;
+        height:5px;
+		position: absolute;
+        top: 160px;
+        left:400px;
+}
+
+#talon2 {
+		background-color:black;
+        width:30px;;
+        height:5px;
+		position: absolute;
+        top: 170px;
+        left:400px;
+}
+
+#talon3 {
+		background-color:black;
+        width:30px;;
+        height:5px;
+		position: absolute;
+        top: 150px;
+        left:300px;
+}
+
+#talon4 {
+		background-color:black;
+        width:30px;;
+        height:5px;
+		position: absolute;
+        top: 160px;
+        left:300px;
+}
+  
+  #guts {
+    	background-color:darkred;
+    	width:150px;
+    	height:70px;
+    	position:absolute;
+    	border-radius:50%;
+    	top:290px;
+    	left:300px;
+  }
+  
+#skull {
+		background-color:grey;
+        width:100px;
+        height:100px;
+       	position:absolute;
+        border-radius:60%;
+        top:350px;
+        left:50px;
+}
+
+#eye {
+		background-color:black;
+        width:30px;
+        height:10px;
+        position:absolute;
+        border-radius:50%;
+        top:410px;
+        left:80px;
+}
+
+#beak {
+        background-color:red;
+        width:25px; 
+  		height:25px; 
+        position:absolute;
+       	top:360px;
+        left:53px;
+}
+
+
+
+</style>
