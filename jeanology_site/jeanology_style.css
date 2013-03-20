@@ -1,0 +1,187 @@
+
+body {
+	background-color: black;
+	background-repeat: repeat-y;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+
+/* Page Structure */
+
+#titletext {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	
+}
+
+#jeanscontainer {
+	max-height: 4584px;
+	max-width: 1137px;
+	float: left;
+}
+
+#jeans {
+	max-height: 573px;
+	max-width: 1137px;
+	position:absolute;
+	float:left;
+	
+}
+
+#jeans img {
+	height:100%;
+	width:100%;
+	max-height:573;
+	max-width: 1138px;
+	float:left;
+	
+}
+
+#timeline {
+	height:4000px;
+	width:5px;
+  	color: #fff;
+	left:100px;
+	position:fixed;
+	border:2px dashed white;
+	opacity:0.7;
+}
+
+#pointer {
+	height: 500px;
+	width: 500px;
+	top: 100px;
+	left: 50px;
+	position: fixed;
+}
+
+#timelinedates {
+	position: absolute;
+	top: 700px;
+	left:-75px;
+	float: left;
+}
+
+#timelinedates img {
+	padding-bottom: 400px;
+}
+
+
+
+#characters {
+	height:400px;
+	width:800px;
+	left:250px;
+	top:15px;
+	position:fixed;
+	display:inline;
+}
+
+#infobox_1853 {
+	background-color:white;
+	opacity:0.7;
+	height:150px;
+	width:1045px;
+	left:100px;
+	top:845px;
+	position:absolute;
+	
+}
+
+#infobox_1870 {
+	background-color:white;
+	opacity:0.7;
+	height:125px;
+	width:1045px;
+	left:100px;
+	top:1515px;
+	position:absolute;
+
+}
+
+#infobox_1872 {
+	background-color:white;
+	opacity:0.7;
+	height:125px;
+	width:1045px;
+	left:100px;
+	top:2180px;
+	position:absolute;
+
+}
+
+#infobox_1873 {
+	background-color:white;
+	opacity:0.7;
+	height:125px;
+	width:1045px;
+	left:100px;
+	top:2850px;
+	position:absolute;
+	
+}
+
+
+#infobox_1900 {
+	background-color:white;
+	opacity:0.7;
+	height:125px;
+	width:1045px;
+	left:100px;
+	top:3510px;
+	position:absolute;
+}
+
+#infobox_1904 {
+	background-color:white;
+	opacity:0.7;
+	height:125px;
+	width:1045px;
+	left:100px;
+	top:4180px;
+	position:absolute;
+	
+}
+
+#infobox_1940 {
+	background-color:white;
+	opacity:0.7;
+	height:125px;
+	width:1045px;
+	left:100px;
+	top:4850px;
+	position:absolute;
+
+}
+
+/* Type Styles */
+
+p {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 20px;
+	color: #333;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 1.2em;
+	word-spacing: 0.15em;
+	text-align: right;
+	font-weight: bold;
+}
+
+
+
+/* LINK STYLES */
+
+a:link, a:visited {
+	color: #000;
+	text-decoration: no;
+}
+
+a:hover, a:active {
+	color: #800000;
+	text-decoration: no;
+	
+}
