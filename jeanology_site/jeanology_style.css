@@ -1,0 +1,306 @@
+
+body {
+	background-color: black;
+	background-repeat: repeat-y;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+
+/* Page Structure */
+
+#titletext {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	
+}
+
+#jeanscontainer {
+	max-height: 4584px;
+	max-width: 1137px;
+	float: left;
+}
+
+#jeans {
+	max-height: 573px;
+	max-width: 1137px;
+	position:absolute;
+	float:left;
+	width:fixed;
+	
+}
+
+#jeans img {
+	height:100%;
+	width:100%;
+	max-height:573;
+	max-width: 1138px;
+	float:left;
+	
+}
+
+#timeline {
+	height:4000px;
+	width:5px;
+  	color: #fff;
+	left:100px;
+	position:fixed;
+	border:2px dashed white;
+	opacity:0.7;
+}
+
+#pointer {
+	height: 500px;
+	width: 500px;
+	top: 100px;
+	left: 60px;
+	position: fixed;
+}
+
+#timelinedates {
+	position: absolute;
+	top: 700px;
+	left:-75px;
+	float: left;
+}
+
+#timelinedates img {
+	padding-bottom: 400px;
+}
+
+
+#characters {
+	height:200px;
+	width:900px;
+	left:200px;
+	top:100px;
+	position:fixed;
+	display:inline;
+}
+
+#jacob {
+	height:200px;
+	width:300px;
+	float:left;
+}
+
+#levi {
+	height:200px;
+	width:300px;
+	float: left;
+}
+
+#james {
+	height:200px;
+	width:300px;
+	float:left;
+}
+
+#characternames {
+	left:200px;
+	position:fixed;
+	display:inline;
+}
+
+#jacobdavistext {
+	width:400px;
+	height:210px;
+	top:30px;
+	left:100px;
+	float:left;
+	position:fixed;
+	visibility:visible;
+}
+
+#jacobdavistext:hover {
+	visibility:visible;
+}
+
+#levitext {
+	width:400px;
+	height:210px;
+	top:20px;
+	left:400px;
+	float: left;
+	position:fixed;
+	visibility:visible;
+}
+
+#jamestext {
+	width:400px;
+	height:210px;
+	left:550px;
+	top:-25px;
+	float: left;
+	position:fixed;
+	visibility:visible;
+}
+
+#infobox_1853 {
+	background-color:white;
+	opacity:0.6;
+	height:225px;
+	width:1035px;
+	left:90px;
+	top:840px;
+	position:absolute;
+	border-radius: 20px 2px 20px 2px;
+
+}
+
+#infobox_1870 {
+	background-color:white;
+	opacity:0.6;
+	height:225px;
+	width:1035px;
+	left:90px;
+	top:1510px;
+	position:absolute;
+	border-radius: 20px 2px 20px 2px;
+
+}
+
+#infobox_1872 {
+	background-color:white;
+	opacity:0.6;
+	height:225px;
+	width:1035px;
+	left:90px;
+	top:2175px;
+	position:absolute;
+	border-radius: 20px 2px 20px 2px;
+
+}
+
+#infobox_1873 {
+	background-color:white;
+	opacity:0.6;
+	height:225px;
+	width:1035px;
+	left:90px;
+	top:2845px;
+	position:absolute;
+	border-radius: 20px 2px 20px 2px;
+	
+}
+
+
+#infobox_1900 {
+	background-color:white;
+	opacity:0.7;
+	height:225px;
+	width:1035px;
+	left:90px;
+	top:3505px;
+	position:absolute;
+	border-radius: 20px 2px 20px 2px;
+}
+
+#infobox_1904 {
+	background-color:white;
+	opacity:0.6;
+	height:225px;
+	width:1035px;
+	left:90px;
+	top:4175px;
+	position:absolute;
+	border-radius: 20px 2px 20px 2px;
+	
+}
+
+#infobox_1940 {
+	background-color:white;
+	opacity:0.6;
+	height:225px;
+	width:1035px;
+	left:90px;
+	top:4845px;
+	position:absolute;
+	border-radius: 20px 2px 20px 2px;
+
+}
+
+#photocontainer_1853 img {
+	left:250px;
+	top:950px;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#photocontainer_1870 img {
+	left:250px;
+	top:1620px;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#photocontainer_1872 img {
+	left:250px;
+	top:2315px;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#photocontainer_1873 img {
+	left:250px;
+	top:2950px;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#photocontainer_1900 img {
+	left:250px;
+	top:3650px;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#photocontainer_1904 img {
+	left:250px;
+	top:4275px;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#photocontainer_1940 img {
+	left:170px;
+	top:4980px;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#scissorsanimation {
+	top: 400px;
+	left: -55px;
+	position:fixed;
+	float: left;
+}
+
+/* Type Styles */
+
+p {
+	font-family: "Freight Text Pro"; /* change this font */
+	font-size: 28px;
+	color: #333;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: right;
+	font-weight:medium;
+}
+
+
+
+/* LINK STYLES */
+
+a:link, a:visited {
+	color: #000;
+	text-decoration: no;
+}
+
+a:hover, a:active {
+	color: #800000;
+	text-decoration: no;
+	
+}
