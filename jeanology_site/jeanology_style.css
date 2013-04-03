@@ -251,7 +251,7 @@ body {
 
 #photocontainer_1900 img {
 	left:250px;
-	top:3650px;
+	top:3665px;
 	position:absolute;
 	border-radius: 20px 20px 20px 20px;
 }
@@ -280,14 +280,14 @@ body {
 /* Type Styles */
 
 p {
-	font-family: "Freight Text Pro"; /* change this font */
+	font-family: "Freight Text Pro";
 	font-size: 28px;
 	color: #333;
 	margin-top: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
 	text-align: right;
-	font-weight:medium;
+	font-weight:bold;
 }
 
 
