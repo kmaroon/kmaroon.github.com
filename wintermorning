@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+
+<link rel="stylesheet" type="text/css" href="house_style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script src="java_house.js"></script>
+
+<title>winter morning</title>
+
+</head>
+
+<body>
+  
+<div id="scenecontainer"><!-- put background jeans image here -->
+	<div id="thetrees">
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		<img src="images/trees.png" alt="treessolo"/>
+		
+	</div>
+	
+	
+	<div id="thehouse">
+		<img src="images/housesolo.png" alt="wintersunrise"/>
+		
+	</div>
+	
+	<div id="thehouseend">
+		<img src="images/housesoloend.png" alt="wintersunrise"/>
+		
+	</div>
+	
+	
+</div>
