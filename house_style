@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+	background-repeat: repeat-y;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+
+
+/* Page Structure */
+#scenecontainer {
+	float: left;
+	height:400px;
+	width: 9000px;
+}
+
+#thetrees {
+	float:left;
+}
+
+#thehouse {
+	position: absolute;
+	left: -10px; 
+	top: -10px;
+	float: left;
+}
+
+#thehouseend {
+	position:absolute;
+	float: right;
+	top: -10px;
+	left:7800px;
+}
+
