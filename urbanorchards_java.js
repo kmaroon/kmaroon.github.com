@@ -49,7 +49,7 @@ var i= 0;
       });
       
 var beeHeatmapData = .beedata[i];
-	var beedata = [i]
+	var beedata = [i];
       while(i < beedata.length) {
         var column = beedata[i];
 
