@@ -1,0 +1,4 @@
+{
+  "Zip Code":[02155,02139,02140,02140,02138,02138,02139,02144,02472,02116,02118,02116,02116,02116,02115,02115,02115,02116,02116,02116,02116,02115,02125,02119,02119,02119,02119,02445,02445,02445,02445,02130,02130,02136],
+  "Neighborhood":["Medford","Cambridge","Cambridge","Cambridge","Cambridge","Cambridge","Cambridge","Somerville","Watertown","Boston","Boston","Boston","Boston","Boston","Boston","Boston ","Boston ","Boston","Boston","Boston","Boston","Boston","Boston","Boston","Boston","Boston","Boston","Brookline","Brookline","Brookline","Brookline","Jamaica Plain","Jamaica Plain","Hyde Park"]
+}

@@ -1,0 +1,98 @@
+body {
+	background-color: #66CDAA;
+	background-attachment: fixed;
+	max-width: 1137px;
+	width: fixed;
+}
+
+#map-canvas { 
+	width: 650px;
+	height:600px;
+	position: absolute;
+	left: 700px;
+	top:30px;
+}
+
+#map {
+	position: absolute;
+	top: 200px;
+	left:200px;
+}
+
+#apple {
+	width: 5px; 
+	height: 5px; 
+	background-image: url(images/apple.png);
+}
+
+#maptitle {
+	width: 500px;
+	height: 300px;
+	top: 40px;
+	left: 15px;
+	position:absolute;
+}
+
+#honeybee {
+	position:absolute;
+	width:72px
+	height:72px;
+	left: 550px;
+	top: 75px;
+}
+
+#honeybee2 {
+	position:absolute;
+	width:72px
+	height:72px;
+	left: 10px;
+	top: 155px;
+}
+
+#honeybee3 {
+	position:absolute;
+	width:72px
+	height:72px;
+	left: 300px;
+	top: 300px;
+}
+
+
+
+
+#top-borderline {
+	background-color:#ffd082;
+	top:20px;
+	height:10px;
+	width:1500px;
+  	color: #fff;
+	left:-10px;
+	position:fixed;
+}
+
+#bottom-borderline {
+	background-color:#ffd082;
+	top: 630px;
+	height:10px;
+	width:1500px;
+  	color: #fff;
+	left:-10px;
+	position:fixed;
+}
+
+/* Type Styles */
+
+p {
+	font-family: "futura", regular;
+	font-size: 12px;
+	color: black;
+	margin-top: 650px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: left;
+	font-style:normal;
+	
+}
+
+
+
