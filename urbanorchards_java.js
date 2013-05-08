@@ -46,7 +46,9 @@ var i= 0;
         title: urbanorchards[9],
         icon: "images/apple3.png", 
         map: myMap
-      });
+
+      }); 
+	i++;
   
 
 	var beeHeatmapData = [];
@@ -80,21 +82,7 @@ var i= 0;
         i++;      
       }
 
-      var heatmap = new google.maps.visualization.HeatmapLayer({
-        data: beedata,
-        // radius: 30
-      });
-      heatmap.setMap(myMap); 
       
-
-         var mapOptions = {
-      center: new google.maps.LatLng(42.3583,-71.0603 ),
-        zoom: 12,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-      var myMap = new google.maps.Map($("#map-canvas")[0],mapOptions);*/
-
-     
       
     
 	
