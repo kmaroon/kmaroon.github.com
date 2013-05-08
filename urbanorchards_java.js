@@ -48,7 +48,7 @@ var i= 0;
         map: myMap
       });
       
-/*var beeHeatmapData = .beedata[i];
+var beeHeatmapData = .beedata[i];
 	var beedata = [i]
       while(i < beedata.length) {
         var column = beedata[i];
@@ -72,7 +72,7 @@ var i= 0;
         zoom: 12,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       };
-      var myMap = new google.maps.Map($("#map-canvas")[0],mapOptions); */
+      var myMap = new google.maps.Map($("#map-canvas")[0],mapOptions);
 
      
       
