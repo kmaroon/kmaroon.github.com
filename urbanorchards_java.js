@@ -50,7 +50,7 @@ var i= 0;
       }); 
 	i++;
   
-
+/*
 	var beeHeatmapData = [];
 	  var i=0;
 
@@ -68,9 +68,8 @@ var i= 0;
 	      data: beeHeatmapData,
 	      radius: 15
 	    });
-	    heatmap.setMap(myMap); 
+	    heatmap.setMap(myMap); */
     
-
       
       
     
