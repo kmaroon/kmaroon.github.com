@@ -52,7 +52,7 @@ var i= 0;
   
 
 	var beeHeatmapData = [];
-	  i=0;
+	  var i=0;
 
 	  while(i < beedata.length) {
 	    var column = beedata[i];
