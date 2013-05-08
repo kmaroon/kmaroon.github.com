@@ -70,17 +70,6 @@ var i= 0;
 	    });
 	    heatmap.setMap(myMap); 
     
-/*var beeHeatmapData = .beedata[i];
-	var beedata = [i];
-      while(i < beedata.length) {
-        var column = beedata[i];
-
-        beeHeatmapData.push(
-          new google.maps.LatLng(column.LATITUDE,column.LONGITUDE)  
-        )
-  
-        i++;      
-      }
 
       
       
