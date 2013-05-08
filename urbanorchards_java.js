@@ -49,10 +49,11 @@ var i= 0;
 
       }); 
 	i++;
-  
-/*
+  }
+
+
 	var beeHeatmapData = [];
-	  var i=0;
+	  var i= 0;
 
 	  while(i < beedata.length) {
 	    var column = beedata[i];
@@ -68,17 +69,18 @@ var i= 0;
 	      data: beeHeatmapData,
 	      radius: 15
 	    });
-	    heatmap.setMap(myMap); */
+	    heatmap.setMap(myMap);
+		i++
     
       
-      
+      	var diffX = maxX - minX;
+		var screenX =  (x - minX) / diffX * 500;
+		var diffY = maxY - minY;
+		var screenY = (y - minY) / diffY * 300;
+	
     
 	
-	var diffX = maxX - minX;
-	var screenX =  (x - minX) / diffX * 500;
-	var diffY = maxY - minY;
-	var screenY = (y - minY) / diffY * 300;
-   
+
    
     /*var div = $("<div>").css({
 		position:"absolute", width: 10, height: 10, borderRadius: 50, backgroundColor:"red", left: screenX, top: screenY, opacity:0.5,
@@ -87,5 +89,5 @@ var i= 0;
 	$("body").append(div);*/
 	
 	 i++;
-  }
+  
 });

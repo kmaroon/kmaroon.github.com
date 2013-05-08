@@ -6,11 +6,11 @@ body {
 }
 
 #map-canvas { 
-	width: 650px;
-	height:600px;
+	width: 550px;
+	height:500px;
 	position: absolute;
-	left: 700px;
-	top:30px;
+	left: 20px;
+	top:200px;
 }
 
 #map {
@@ -28,7 +28,7 @@ body {
 #maptitle {
 	width: 500px;
 	height: 300px;
-	top: 40px;
+	top: 50px;
 	left: 15px;
 	position:absolute;
 }
@@ -41,13 +41,14 @@ body {
 	top: 75px;
 }
 
-#honeybee2 {
+/*#honeybee2 {
 	position:absolute;
 	width:72px
 	height:72px;
-	left: 10px;
-	top: 155px;
-}
+	left: 50px;
+	top: 125px;
+
+}*/
 
 #honeybee3 {
 	position:absolute;
@@ -72,7 +73,7 @@ body {
 
 #bottom-borderline {
 	background-color:#ffd082;
-	top: 630px;
+	top: 730px;
 	height:10px;
 	width:1500px;
   	color: #fff;
@@ -86,7 +87,7 @@ p {
 	font-family: "futura", regular;
 	font-size: 12px;
 	color: black;
-	margin-top: 650px;
+	margin-top:750px;
 	margin-left: 0px;
 	margin-right: 0px;
 	text-align: left;
