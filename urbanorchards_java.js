@@ -48,7 +48,7 @@ var i= 0;
         map: myMap
       });
       
-var beeHeatmapData = .beedata[i];
+var beeHeatmapData = (".beedata"[i]);
 	var beedata = [i];
       while(i < beedata.length) {
         var column = beedata[i];
