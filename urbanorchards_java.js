@@ -37,6 +37,8 @@ var i= 0;
 	var neighborhood= urbanorchards[11];
 	var location= urbanorchards[13];
 	var name= urbanorchards[9];
+	var address= urbanorchards[10]
+
 	
 
 	var Lat= parseFloat(orchards.data[i][15][1]);
