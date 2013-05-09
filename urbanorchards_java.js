@@ -53,8 +53,20 @@ var i= 0;
 	i++;
   }
 
+/*var contentString = '<div id="pop-up">' + '<h2>'  + restaurant + '</h2>' + '<h3>' + description + '</h3>' + '<p>' + comments + '</p>' + '</div>';
 
-	var beeHeatmapData = [];
+  	var infowindow = new google.maps.InfoWindow({
+    content: contentString
+
+	// === Store the category and name info as a marker properties ===
+		marker.mycategory = city.toLowerCase();
+	 	gmarkers.push(marker);
+
+	   google.maps.event.addListener(marker, 'click', function() {
+	  	infowindow.open(myMap,marker);
+		});*/
+
+var beeHeatmapData = [];
 	  var i= 0;
 
 	  while(i < beedata.length) {
@@ -74,6 +86,26 @@ var i= 0;
 	    heatmap.setMap(myMap);
 		i++
     
+/*		var map = new google.maps.Map(document.getElementById('map-canvas'),
+		      mapOptions);
+
+		  var bosLayer = new google.maps.KmlLayer({
+		    suppressInfoWindows: true,
+		    map: map
+		  });
+
+		  google.maps.event.addListener(nyLayer, 'click', function(kmlEvent) {
+		    var text = kmlEvent.featureData.description;
+		    showInContentWindow(text);
+		  });
+
+		  function showInContentWindow(text) {
+		    var sidediv = document.getElementById('content-window');
+		    sidediv.innerHTML = text;
+		  }
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize); */
       
       	var diffX = maxX - minX;
 		var screenX =  (x - minX) / diffX * 500;
